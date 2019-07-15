@@ -1,0 +1,84 @@
+/* External CSS for HTML assignment 5 */
+
+body {
+        background-image: url('https://iagnyc.files.wordpress.com/2012/10/jungle_f07b_700x.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+.heading {
+            width: 500px;
+            height: auto;
+            position: relative;
+          }
+
+h1 {
+      font-family: 'Alegreya Sans SC';
+      font-size: 40px;
+      color: white;
+      text-align: center;
+      background-color: #1D2B0A;
+      border-radius: 10px;
+   }
+
+
+#main {
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+
+.canvas {
+          width: 500px;
+          height: 500px;
+          border: 25px solid #1D2B0A;
+          border-radius: 20px;
+          float: left;
+          position: absolute;
+          margin-top: 20px;
+          background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9qvVPz8IfyhySUBeQulSIQuF9ql9QIbUu_JWDwcIpVido80La');
+          background-position: center;
+        }
+
+.snake {
+        background-color: #371200;
+        border: 2px solid #371200;
+        border-radius: 10px;
+        width: 21px;
+        height: 21px;
+        position: absolute;
+      }
+
+#food {
+        background-color: #a80a0a;
+        border: 2px solid white;
+        border-radius: 10px;
+        width: 21px;
+        height: 21px;
+        position: absolute;
+      }
+
+h2, h3 {
+          color: white;
+          text-align: center;
+        }
+
+.instructions {
+                float: right;
+                width: 51%;
+                height: 90%;
+                font-family: Chakra Petch;
+                position: relative;
+                border: 3px solid #1D2B0A;
+                border-radius: 10px;
+                margin-left: 20px;
+                font-size: 30px;
+                color: white;
+                padding: 21px;
+              }
+
+.space {
+          border:2px solid white;
+          font-weight: bold;
+        }

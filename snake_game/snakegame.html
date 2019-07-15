@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <title>
+      SNAKE GAME
+  </title>
+  <link rel="stylesheet" href="snakegame.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+   integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=ChakraPetch' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+</head>
+<body onkeydown="whichButton(event)">
+  <span class="heading">
+    <h1> SNAKE GAME </h1>
+  </span>
+  <div id="main">
+    <div class="canvas">
+      <div class="snake">
+      </div>
+      <div id="food">
+      </div>
+    </div>
+    <div class="instructions">
+      <h2 id="score"> Score : </h2>
+      <h3> Instructions: </h3>
+      <ol>
+        <li> Press <i class="fas fa-arrow-circle-up"></i> arrow key to move in upward direction. </li>
+        <li> Press <i class="fas fa-arrow-circle-down"></i> arrow key to move in downward direction. </li>
+        <li> Press <i class="fas fa-arrow-circle-right"></i> arrow key to move in right direction. </li>
+        <li> Press <i class="fas fa-arrow-circle-left"></i> arrow key to move in left direction. </li>
+        <li> If you strike the boundraies of the canvas, then GAME will be OVER. </li>
+        <li> Press <span class="space">SPACEBAR</span> to PAUSE the game. </li>
+      </ol>
+    </div>
+  </div>
+<script src="snakegame.js"></script>
+</body>
+</html>
