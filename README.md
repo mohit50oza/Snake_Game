@@ -1,2 +1,2 @@
 # snake_game
-Added a Snake Game Project
+Snake Game Project using HTML, CSS and JavaScript
